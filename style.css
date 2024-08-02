@@ -75,14 +75,14 @@ p{
 section, section div{
     display:flex;
     flex-direction:column;
-    gap:1.5em;
+    gap:2em;
     align-items:center;
 }
 
 section article{
     grid-column: 1 / 10;
     max-width:25em;
-    padding:1.5em;
+    padding:1.8em;
     background-color:white;
     border-radius:5px;
     box-shadow: 0px 17px 20px 1px rgba(163,165,174,.4);
@@ -91,6 +91,7 @@ section article{
 
     display:grid;
     grid-template-columns: repeat(5, 1fr);
+    gap:.5em;
 }
 
 section article *{
